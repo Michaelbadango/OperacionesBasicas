@@ -5,6 +5,7 @@
     android:id="@+id/idN2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CCE8E6"
     tools:context=".SumaActivity">
 
     <TextView
