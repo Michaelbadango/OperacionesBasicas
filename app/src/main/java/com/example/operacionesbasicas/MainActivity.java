@@ -24,4 +24,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RestaActivity.class);
         view.getContext().startActivity(intent);
     }
+
+    public void verMulti(View view){
+        Intent intent = new Intent(this, MultiplicacionActivity.class);
+        view.getContext().startActivity(intent);
+    }
+
+    public void verDiv(View view){
+        Intent intent = new Intent(this, DivActivity.class);
+        view.getContext().startActivity(intent);
+    }
 }
