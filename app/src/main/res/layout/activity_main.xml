@@ -15,9 +15,10 @@
         android:text="OPERACIONES"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.044" />
+        app:layout_constraintVertical_bias="0.112" />
 
     <TextView
         android:id="@+id/textView3"
@@ -28,7 +29,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137" />
+        app:layout_constraintVertical_bias="0.186" />
 
     <Button
         android:id="@+id/btn_suma"
@@ -47,6 +48,7 @@
         android:id="@+id/btn_resta"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="verResta"
         android:text="RESTA"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
